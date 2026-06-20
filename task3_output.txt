@@ -1,0 +1,22 @@
+Task 3.4: Pivot table summarizing number of stops for each train (Top 10)
+          Number_of_Stops
+Train_No                 
+53041               118.0
+13007               112.0
+13049               111.0
+58112               109.0
+13008               108.0
+53042               107.0
+13050               106.0
+58111               102.0
+19019                98.0
+13352                97.0
+
+Pivot Table: Summary of Stops by Distance Bins
+                        mean             max             min           count
+             Number_of_Stops Number_of_Stops Number_of_Stops Number_of_Stops
+Distance_Bin                                                                
+0-500km            14.227074              83               2            8909
+500-1000km         23.713969             118               2             902
+1000-2000km        26.915939             112               2             916
+2000km+            34.494819              97               6             386

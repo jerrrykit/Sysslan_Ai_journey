@@ -1,0 +1,26 @@
+Task 2.1: Missing values and duplicates
+Original records: 186074, Cleaned records: 186074
+
+Task 2.2: Arrival and departure times conversion
+Times were converted to minutes from midnight (e.g., 10:25:00 -> 625 minutes) to facilitate calculations and serve as numerical features.
+
+Task 2.3 & 2.4: Journey Duration & Input Features
+Processed features for 11113 trains.
+Sample processed data (first 5 rows):
+   Train_No  Total_Distance  Number_of_Stops  Start_Departure_Minute  End_Arrival_Minute  Journey_Duration_Minutes
+0       107              78                4                   625.0               730.0                     105.0
+1       108              83                4                  1230.0              1345.0                     115.0
+2       128             978               22                  1180.0              1065.0                    1325.0
+3       290            2694               14                  1110.0               150.0                    9120.0
+4       401            1618               12                  1290.0               600.0                    2190.0
+
+Summary Statistics of Processed Data:
+           Train_No  Total_Distance  Number_of_Stops  Start_Departure_Minute  End_Arrival_Minute  Journey_Duration_Minutes
+count  11113.000000    11113.000000     11113.000000            11113.000000        11113.000000              11113.000000
+mean   49190.570413      348.870242        16.746963              797.632233          824.596869                433.969045
+std    28515.986645      596.179751        12.995127              346.582027          354.684723                669.147641
+min      107.000000        1.000000         2.000000                1.000000            0.000000                  5.000000
+25%    22607.000000       38.000000         8.000000              488.000000          550.000000                 63.000000
+50%    47174.000000       82.000000        15.000000              820.000000          805.000000                135.000000
+75%    68012.000000      324.000000        22.000000             1085.000000         1140.000000                450.000000
+max    99908.000000     4260.000000       118.000000             1439.000000         1439.000000               9120.000000

@@ -1,0 +1,16 @@
+Task 5: Model Comparison and Selection
+
+--- Basic Model ---
+Algorithm: Linear Regression
+Feature(s): Total_Distance
+MAE: 67.51 minutes
+RMSE: 167.48 minutes
+
+--- Improved Model ---
+Algorithm: Random Forest Regressor
+Feature(s): Total_Distance, Number_of_Stops, Start_Departure_Minute, End_Arrival_Minute
+MAE: 31.66 minutes
+RMSE: 150.53 minutes
+
+--- Conclusion ---
+The Improved Model (Random Forest with multiple features) performs significantly better and is selected.

@@ -1,0 +1,5 @@
+Task 4: Model Training and Evaluation
+Model used: Linear Regression
+Features used: Total_Distance, Number_of_Stops, Start_Departure_Minute, End_Arrival_Minute
+Mean Absolute Error (MAE): 58.58 minutes
+Root Mean Squared Error (RMSE): 157.52 minutes
